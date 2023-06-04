@@ -19,9 +19,14 @@ class GeneradorDePalabras extends React.Component {
   render() {
     return (
       <Fragment>
+        <div className="container">
+        <div className="cuadro">
+        <h1>Programa que al mandar un texto genera la misma palabra y se puede enviar indefinidas veces.</h1>
         <h1>{this.state.letter}</h1>
         <input type="text" className="wordInput"/>
         <input type="button" value="Enviar Palabra" onClick={ () => this.addWord()}/>
+        </div>
+        </div>
       </Fragment>
     )
   }

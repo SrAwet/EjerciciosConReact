@@ -1,0 +1,29 @@
+
+body{
+    background-image: url('../components/imgs/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}
+
+.contador-wrapper,
+.generador-palabras-wrapper,
+.generador-textos-wrapper,
+.reloj-wrapper {
+  margin-bottom: 10vh; 
+}
+
+

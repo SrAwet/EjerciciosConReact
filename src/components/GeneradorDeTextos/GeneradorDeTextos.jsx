@@ -17,8 +17,13 @@ class GeneradorDeTextos extends React.Component {
   render() {
     return (
       <Fragment>
+        <div className="container">
+        <div className="cuadro">
+          <h1>Programa que al escribir un texto lo puedes ver reflejado al instante.</h1>
         <h1>{this.state.letter}</h1>
         <input type="text" onChange={ (evento) => this.addLetter(evento.target.value)}/>
+        </div>
+        </div>
       </Fragment>
     )
   }

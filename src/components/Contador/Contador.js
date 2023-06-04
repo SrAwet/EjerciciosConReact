@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import './/Contador.css';
 
 class Contador extends React.Component {
   
@@ -20,11 +21,19 @@ class Contador extends React.Component {
   // Etapa de renderizado 
   render() {
     return (
+      
       <Fragment>
-        <h1>CONTADOR: NUMERO {this.state.contador}</h1>
+        <div className="container">
+        <div className="cuadro">
+          <h1>Programa para contar numeros o restarlos al dar click a los botones:</h1>
+        <h1>Contador: NUMERO {this.state.contador}</h1>
         <button onClick={()=> this.plus()}>SUMAR</button>
         <button onClick={()=> this.minus()}>RESTAR</button>
+        </div>
+      </div>
+
       </Fragment>
+      
     )
   }
 }

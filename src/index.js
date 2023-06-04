@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Contador from './components/Contador/Contador';
-import GeneradorDeTextos from './components/GeneradorDeTextos/GeneradorDeTextos'
-import GeneradorDePalabras from './components/GeneradorDePalabras/GeneradorDePalabras';
+import Main from "../src/views/main";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contador />
-    <GeneradorDeTextos/>
-    <GeneradorDePalabras/>
+    <Main />
   </React.StrictMode>
 );
 

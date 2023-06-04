@@ -8,7 +8,7 @@ const Main = () => {
     <>
       <body>
         <header>
-          <h1>¡Bienvenido a mi proyecto de ejercicios!</h1>
+          <h1>¡Bienvenido/a a mi proyecto de ejercicios!</h1>
         </header>
 
         <main>
